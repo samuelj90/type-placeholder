@@ -42,7 +42,7 @@
 /* #Basic Styles
 ================================================== */
 	body {
-		background: #fff;
+		background: #f5efe6
 		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
@@ -204,25 +204,22 @@
 		margin-bottom: 20px; }
 	fieldset {
 		margin-bottom: 20px; }
-	input[type="text"],
-	input[type="password"],
-	input[type="email"],
-	textarea,
-	select {
+	input[type="text"], input[type="password"], input[type="email"], textarea, select {
 		border: 1px solid #ccc;
-		padding: 6px 4px;
+		padding: 10px 10px;
 		outline: none;
 		-moz-border-radius: 2px;
 		-webkit-border-radius: 2px;
 		border-radius: 2px;
-		font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font: 15px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		color: #777;
-		margin: 0;
-		width: 210px;
+		margin: 0 auto;
+		width: 80%;
 		max-width: 100%;
 		display: block;
 		margin-bottom: 20px;
-		background: #fff; }
+		background: #fff;
+		font-weight: 300;}
 	select {
 		padding: 0; }
 	input[type="text"]:focus,
