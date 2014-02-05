@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Typewriter Placeholder  Input with Multiple Keywords Demo</title>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="js/twinput1.0.0.js"></script>
+</head>
+<body>
+<h1>Typewriter Placeholder  Input with Multiple Keywords Demo</h1>
+<input type="text" id="demo" /><button id="btn">show value</button>
+</body>
+<script>
+$('#demo').tw_input_placeholder({
+	speed: 100,
+	delay: 2000,
+	keywords: ['Track and Gauge Social media engagment','Coca Cola Facebook page','www.cnn.com','Barack Obama on Twitter','Apple News'],
+});
+</script>
+</html>
