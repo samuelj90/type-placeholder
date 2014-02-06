@@ -11,7 +11,7 @@ tag
 
 You Can see an Online Demo of this project here
 
-[I'm an inline-style link with title](http://samuelj90.github.io/Typewriter-Effect-for-Input-with-Multiple-Keywords/ "Demo Homepage")
+[Demo Homepage](http://samuelj90.github.io/Typewriter-Effect-for-Input-with-Multiple-Keywords/ "Demo Homepage")
 
 <h3>Usage</h3>
 
