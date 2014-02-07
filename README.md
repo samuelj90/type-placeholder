@@ -21,4 +21,4 @@ $('#demo').tw_input_placeholder({
 	delay: 2000,
 	keywords: ['Sachin Tendulkar','Samuel James Mathew','Barack Obama','Apple News','India','Iam Feeling Happy'],
 });
-</script>
+
