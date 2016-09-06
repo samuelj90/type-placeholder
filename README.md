@@ -11,7 +11,7 @@ tag
 
 You Can see an Online Demo of this project here
 
-[Demo Homepage](http://samuelj90.github.io/Typewriter-Effect-for-Input-with-Multiple-Keywords/ "Demo Homepage")
+[Demo Homepage](http://samuelj90.github.io/JqueryTypewriter/ "Demo Homepage")
 
 <h3>Usage</h3>
 
