@@ -1,20 +1,14 @@
-Typewriter-Effect-for-Input-with-Multiple-Keywords
-===================================================
 
-Typewriter Effect for Input with Multiple Keywords is a jquery library for making typing effect placeholders in HTML input
-tag
+# JqueryInputPlaceholderTypewriter
+This jquery plugin amis to create typewriting effect to the placeholders to bring more attention to the input. It mainly accepts three input speed, delay and keywords. It uses the keywords and display characters with a typewriting effect using the speed and delay parameters
 
-
-
-
-<h3>Demo</h3>
-
+## Demo
 You Can see an Online Demo of this project here
-
 [Demo Homepage](http://samuelj90.github.io/JqueryTypewriter/ "Demo Homepage")
 
-<h3>Usage</h3>
-
+## Usage
+Include the jquery plugin file along with jquery to the html file 
+Place the below configuration
 ```javascript
 $('#demo').jqueryInputTypeWriting({
 	speed: 100,
