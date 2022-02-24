@@ -17,7 +17,6 @@
       var input = $(this);
       var inputElement = input.get(0);
       var keywordsIndex, inputIndex, keywords;
-      //var input = input;
       function st() {
         keywordsIndex = inputIndex = 0;
         keywords = opt.keywords[keywordsIndex];
