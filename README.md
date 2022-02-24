@@ -16,7 +16,7 @@ You Can see an Online Demo of this project here
 <h3>Usage</h3>
 
 ```javascript
-$('#demo').tw_input_placeholder({
+$('#demo').jqueryInputTypeWriting({
 	speed: 100,
 	delay: 2000,
 	keywords: ['Sachin Tendulkar','Samuel James Mathew','Barack Obama','Apple News','India','Iam Feeling Happy'],
