@@ -7,6 +7,8 @@ You Can see an Online Demo of this project here
 [Demo Homepage](http://samuelj90.github.io/JqueryTypewriter/ "Demo Homepage")
 
 ## Usage
+Include the jquery plugin file along with jquery to the html file 
+Place the below configuration
 ```javascript
 $('#demo').jqueryInputTypeWriting({
 	speed: 100,
