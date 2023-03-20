@@ -4,7 +4,7 @@ This jquery plugin amis to create typewriting effect to the placeholders to brin
 
 ## Demo
 You Can see an Online Demo of this project here
-[Demo Homepage](http://samuelj90.github.io/JqueryTypewriter/ "Demo Homepage")
+[Demo Homepage](http://samuelj90.github.io/JqueryInputPlaceholderTypewriter/ "Demo Homepage")
 
 ## Usage
 Include the jquery plugin file along with jquery to the html file 
