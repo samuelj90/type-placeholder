@@ -1,6 +1,6 @@
 (function ($) {
   var isInternetExplorer;
-  $.fn.jqueryInputTypeWriting = function (option) {
+  $.fn.typePlaceholder = function (option) {
     isInternetExplorer = navigator.appName == "Microsoft Internet Explorer";
     var opt = $.extend(
       {
@@ -29,10 +29,10 @@
         } else {
           input.val("");
         }
-        var typeWritingInput = $.data(inputElement, "tw_input");
+        var typeWritingInput = $.data(inputElement, "type-placeholder-input");
         if (typeWritingInput) {
           clearTimeout(typeWritingInput);
-          $.data(inputElement, "tw_input", false);
+          $.data(inputElement, "type-placeholder-input", false);
         } else {
           $(this).select();
         }
@@ -51,7 +51,7 @@
         if (inputIndex > keywords.length) {
           $.data(
             inputElement,
-            "tw_input",
+            "type-placeholder-input",
             setTimeout(function () {
               if (++keywordsIndex >= opt.keywords.length) {
                 keywordsIndex = 0;
@@ -62,7 +62,7 @@
             }, opt.delay)
           );
         } else {
-          $.data(inputElement, "tw_input", setTimeout(typeWriting, opt.speed));
+          $.data(inputElement, "type-placeholder-input", setTimeout(typeWriting, opt.speed));
         }
       }
       if (!input.val()) {

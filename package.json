@@ -1,0 +1,27 @@
+{
+  "name": "type-placeholder",
+  "version": "1.0.0",
+  "description": "A jquery plugin to give typing effect for input placeholders with the list of keywords provided",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelj90/type-placeholder.git"
+  },
+  "keywords": [
+    "input",
+    "typing-effect",
+    "keywords",
+    "search-attration",
+    "input",
+    "effect"
+  ],
+  "author": "Samuel J Mathew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuelj90/type-placeholder/issues"
+  },
+  "homepage": "https://github.com/samuelj90/type-placeholder#readme"
+}
