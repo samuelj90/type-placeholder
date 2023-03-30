@@ -26,4 +26,4 @@ $('#demo').typePlaceholder({
 
 ## Demo
 
-You can find the demo of this project [here](https://samuelj90.github.com/type-placeholder)
+You can find the demo of this project [here](https://samuelj90.github.io/type-placeholder/)
