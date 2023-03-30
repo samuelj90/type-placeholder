@@ -1,27 +1,35 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <title> JqueryInputPlaceholderTypewriter Demo with Multiple Keywords </title>
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" />
+  <head>
+    <meta charset="utf-8" />
+    <title>Type Placeholder Demo</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700"
+    />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-    <script src="js/twinput1.0.0.js"></script>
-</head>
+    <script src="js/type-placeholder.js"></script>
+  </head>
 
-<body>
-    <div class="container margin-top25-percent">
-        <h3 class="title half-bottom">Typewriter Placeholder Input with Multiple Keywords Demo</h3>
-        <input type="text" id="demo"/>
+  <body>
+    <div class="container">
+      <h3 class="title">
+        WHAT YOU ARE LOOKING FOR ?
+      </h3>
+      <input type="text" id="demo" />
     </div>
-</body>
-<script>
-    $('#demo').jqueryInputTypeWriting({
-        speed: 100,
-        delay: 2000,
-        keywords: ['Sachin Tendulkar', 'ഞാന്‍ മലയാളത്തെ സ്നേഹിക്കുന്നു. നിങ്ങളോ? ', 'Samuel James Mathew', 'Barack Obama', 'Apple News', 'India', 'മലയാളം'],
+  </body>
+  <script>
+    $("#demo").typePlaceholder({
+      speed: 100,
+      delay: 2000,
+      keywords: [
+        "Latest Trends",
+        "New Arrivals",
+        "Best Selling"
+      ],
     });
-</script>
-
+  </script>
 </html>
