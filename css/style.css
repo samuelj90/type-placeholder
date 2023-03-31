@@ -1,6 +1,6 @@
-body{
-	margin: 0;
-	padding:0;
+body {
+  margin: 0;
+  padding: 0;
 }
 .container {
   min-height: calc(100vh - 30px);
@@ -13,12 +13,11 @@ body{
   font-family: "Ubuntu", sans-serif;
   padding: 15px;
   background: #666;
-  flex-direction: column;
+  flex-direction: row;
 }
-
 .container .title {
   font-size: 36px;
-  color: #FFF;
+  color: #fff;
   font-weight: 800;
   text-align: center;
   padding: 15px;
@@ -27,19 +26,24 @@ body{
   min-height: 70px;
   width: calc(100vw - 200px);
   background: 0 0;
-  border: 1px solid #EEE;
-  padding: 10px 70px 10px 32px;
+  border: 1px solid #eee;
+  padding: 4px;
   font-size: 18px;
   color: #666;
-  border-radius: 34px;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -ms-flex-align: center;
   align-items: center;
+  margin: 8px;
 }
-
 .container input::placeholder {
-	color: #FFF;
+  color: #fff;
+  padding: 8px;
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
 }
